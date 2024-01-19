@@ -26,15 +26,15 @@ if(is_player_touching == true)
 		/// @DnDHash : 063A0830
 		/// @DnDParent : 0C7C1D7D
 		/// @DnDArgument : "expr" "300"
-		/// @DnDArgument : "var" "crop_growth_time"
-		crop_growth_time = 300;
+		/// @DnDArgument : "var" "print_time"
+		print_time = 300;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 7ACC1CBD
 		/// @DnDParent : 0C7C1D7D
-		/// @DnDArgument : "steps" "crop_growth_time"
-		alarm_set(0, crop_growth_time);
+		/// @DnDArgument : "steps" "print_time"
+		alarm_set(0, print_time);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
