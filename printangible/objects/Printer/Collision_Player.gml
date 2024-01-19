@@ -11,6 +11,15 @@ if(is_timer_running == false)
 	/// @DnDParent : 32E8513B
 	/// @DnDArgument : "var" "print_state"
 	print_state = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 0A56DAC1
+	/// @DnDParent : 32E8513B
+	/// @DnDArgument : "spriteind" "spr_printer_idle"
+	/// @DnDSaveInfo : "spriteind" "spr_printer_idle"
+	sprite_index = spr_printer_idle;
+	image_index = 0;
 }
 
 /// @DnDAction : YoYo Games.Common.Variable

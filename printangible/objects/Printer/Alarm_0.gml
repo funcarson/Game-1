@@ -20,3 +20,11 @@ is_timer_running = false;
 /// @DnDArgument : "expr" "2"
 /// @DnDArgument : "var" "print_state"
 print_state = 2;
+
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 14A78BAA
+/// @DnDArgument : "spriteind" "spr_printer_finished"
+/// @DnDSaveInfo : "spriteind" "spr_printer_finished"
+sprite_index = spr_printer_finished;
+image_index = 0;
