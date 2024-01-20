@@ -40,10 +40,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"is_player_touching","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "spr_printer_idle",
-    "path": "sprites/spr_printer_idle/spr_printer_idle.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

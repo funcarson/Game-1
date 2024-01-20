@@ -67,7 +67,6 @@
     {"id":{"name":"Start_Button_Sprite_1","path":"sprites/Start_Button_Sprite_1/Start_Button_Sprite_1.yy",},},
     {"id":{"name":"Retry_Button","path":"objects/Retry_Button/Retry_Button.yy",},},
     {"id":{"name":"Start_Button","path":"objects/Start_Button/Start_Button.yy",},},
-    {"id":{"name":"Game_area","path":"rooms/Game_area/Game_area.yy",},},
     {"id":{"name":"Floor_Sprite","path":"sprites/Floor_Sprite/Floor_Sprite.yy",},},
     {"id":{"name":"You_Win","path":"objects/You_Win/You_Win.yy",},},
     {"id":{"name":"Title_Screen","path":"rooms/Title_Screen/Title_Screen.yy",},},
@@ -120,7 +119,7 @@
     {"id":{"name":"You_Lose","path":"objects/You_Lose/You_Lose.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Game_area","path":"rooms/Game_area/Game_area.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Game_area_hard","path":"rooms/Game_area_hard/Game_area_hard.yy",},},
     {"roomId":{"name":"Game_Over_Screen","path":"rooms/Game_Over_Screen/Game_Over_Screen.yy",},},
     {"roomId":{"name":"Instructions_Screen","path":"rooms/Instructions_Screen/Instructions_Screen.yy",},},
