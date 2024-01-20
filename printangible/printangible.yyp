@@ -34,6 +34,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"spr_printer_finished","path":"sprites/spr_printer_finished/spr_printer_finished.yy",},},
     {"id":{"name":"Enemey_hard","path":"sprites/Enemey_hard/Enemey_hard.yy",},},
     {"id":{"name":"enemy_easy","path":"objects/enemy_easy/enemy_easy.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
@@ -42,6 +43,7 @@
     {"id":{"name":"Controller_hard","path":"objects/Controller_hard/Controller_hard.yy",},},
     {"id":{"name":"Printer","path":"objects/Printer/Printer.yy",},},
     {"id":{"name":"enemy_health","path":"sprites/enemy_health/enemy_health.yy",},},
+    {"id":{"name":"spr_printer_printing","path":"sprites/spr_printer_printing/spr_printer_printing.yy",},},
     {"id":{"name":"Enemy_easy","path":"sprites/Enemy_easy/Enemy_easy.yy",},},
     {"id":{"name":"enemy_hard","path":"objects/enemy_hard/enemy_hard.yy",},},
     {"id":{"name":"Turret","path":"objects/Turret/Turret.yy",},},
