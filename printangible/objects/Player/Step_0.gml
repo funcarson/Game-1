@@ -5,7 +5,7 @@ move_right	=  keyboard_check(ord("D"));
 move_left	= -keyboard_check(ord("A"));
 jump_key	=  keyboard_check_pressed(ord("W"));
 
-//process that input
+//process input
 var move = move_left + move_right;
 
 hsp = move * walkspd;
@@ -46,30 +46,9 @@ if(place_meeting(x,y+vsp, Floor))
 y += vsp;
 
 
-/* sprite changes
-
-	if(!place_meeting(x, y + 1, obj_wall))
-	{
-		sprite_index = spr_player_jump;
-		audio_stop_sound(footsteps);
-	}
-
-	if(global.hope <= 0)
-	{
-		sprite_index = spr_player_down; 
-	}
+// game over condition
+if (player_hp <= 0)
+{
+	room_goto(Game_Over_Screen);
+}
 	
-	*/
-	
-
-
-
-
-
-
-
-
-
-
-
-

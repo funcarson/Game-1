@@ -23,7 +23,7 @@ if(is_timer_running == true)
 /// @DnDArgument : "object" "Player"
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "object" "Player"
-var l4EC709D4_0 = instance_place(x + 0, y + 0, [Player]);
+var l4EC709D4_0 = instance_place(x + 0, y + 0, [player]);
 if (!(l4EC709D4_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.Variable

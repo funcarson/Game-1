@@ -55,7 +55,7 @@
     {"id":{"name":"Instructions_Button","path":"objects/Instructions_Button/Instructions_Button.yy",},},
     {"id":{"name":"Level_2_Button","path":"objects/Level_2_Button/Level_2_Button.yy",},},
     {"id":{"name":"enemy_easy","path":"objects/enemy_easy/enemy_easy.yy",},},
-    {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
+    {"id":{"name":"player","path":"objects/player/player.yy",},},
     {"id":{"name":"spr_player_upgrade2","path":"sprites/spr_player_upgrade2/spr_player_upgrade2.yy",},},
     {"id":{"name":"Tile","path":"objects/Tile/Tile.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
