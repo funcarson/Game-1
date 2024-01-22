@@ -1,3 +1,8 @@
 /// @description Collision with enemy (hard)
 
-hp = hp - 25;
+global.player_hp = global.player_hp - 25;
+
+if(global.player_hp <= 0)
+{
+	room_goto(Game_Over_Screen);
+}
