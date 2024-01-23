@@ -17,9 +17,9 @@ if(is_player_touching == true)
 		/// @DnDVersion : 1
 		/// @DnDHash : 1AF82714
 		/// @DnDParent : 58AF5F1D
-		/// @DnDArgument : "expr" "Tile"
+		/// @DnDArgument : "expr" "Floor"
 		/// @DnDArgument : "var" "obj_printing"
-		obj_printing = Tile;
+		obj_printing = Floor;
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

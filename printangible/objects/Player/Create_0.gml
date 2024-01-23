@@ -9,3 +9,4 @@ walkspd = 5;
 jump_speed = 5;
 delay = 120;
 
+facing = -1;

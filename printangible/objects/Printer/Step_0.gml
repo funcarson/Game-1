@@ -20,9 +20,10 @@ if(is_timer_running == true)
 /// @DnDHash : 4EC709D4
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "Player"
+/// @DnDArgument : "object" "player"
 /// @DnDArgument : "not" "1"
-var l4EC709D4_0 = instance_place(x + 0, y + 0, [Player]);
+/// @DnDSaveInfo : "object" "player"
+var l4EC709D4_0 = instance_place(x + 0, y + 0, [player]);
 if (!(l4EC709D4_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.Variable

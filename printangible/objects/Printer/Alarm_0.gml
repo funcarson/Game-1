@@ -4,8 +4,7 @@
 /// @DnDArgument : "xpos_relative" "1"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "obj_printing"
-/// @DnDArgument : "layer" ""Objects""
-instance_create_layer(x + 0, y + 0, "Objects", obj_printing);
+instance_create_layer(x + 0, y + 0, "Instances", obj_printing);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -25,5 +24,6 @@ print_state = 2;
 /// @DnDVersion : 1
 /// @DnDHash : 14A78BAA
 /// @DnDArgument : "spriteind" "spr_printer_finished"
+/// @DnDSaveInfo : "spriteind" "spr_printer_finished"
 sprite_index = spr_printer_finished;
 image_index = 0;

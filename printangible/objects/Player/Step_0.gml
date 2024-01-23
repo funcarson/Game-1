@@ -33,7 +33,7 @@ if(place_meeting(x+hsp,y, Floor))
 }
 
 x += hsp;
-x = clamp(x, 0, room_width - sprite_width);
+x = clamp(x, 0, room_width - sprite_width / 2);
 
 //vertical collision check
 if(place_meeting(x,y+vsp, Floor))
@@ -51,4 +51,15 @@ if (player_hp <= 0)
 {
 	room_goto(Game_Over_Screen);
 }
-	
+
+// get movement direction
+if (hsp != 0) 
+{
+	facing = sign(hsp);
+}
+
+// if they fall off the edge of the map, end game
+if (y + sprite_height / 2 > room_height)
+{
+	room_goto(Game_Over_Screen);
+}
