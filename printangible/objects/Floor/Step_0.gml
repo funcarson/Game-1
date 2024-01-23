@@ -14,7 +14,7 @@ if (!is_placed && is_held)
 			is_held = false;
 		}
 	}
-	else
+	if (is_held)
 	{
 		x = player.x + (player.facing * (sprite_width + 8));
 		y = player.y;
@@ -22,7 +22,7 @@ if (!is_placed && is_held)
 }
 else if (!is_placed)
 {
-	if (distance_to_object(player) <= 2 * sprite_width)
+	if (distance_to_object(player) <= 3 * sprite_width)
 	{
 		is_held = true;
 	}

@@ -2,9 +2,10 @@
 /// @DnDVersion : 1
 /// @DnDHash : 4F4698BC
 /// @DnDArgument : "xpos_relative" "1"
+/// @DnDArgument : "ypos" "-64"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "obj_printing"
-instance_create_layer(x + 0, y + 0, "Instances", obj_printing);
+instance_create_layer(x + 0, y + -64, "Instances", obj_printing);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
