@@ -75,6 +75,7 @@
     {"name":"Turret","order":5,"path":"objects/Turret/Turret.yy",},
     {"name":"Title_Button","order":5,"path":"objects/Title_Button/Title_Button.yy",},
     {"name":"Instructions_Screen","order":3,"path":"rooms/Instructions_Screen/Instructions_Screen.yy",},
+    {"name":"spr_printer_idle","order":11,"path":"sprites/spr_printer_idle/spr_printer_idle.yy",},
     {"name":"Game_Manager_2","order":5,"path":"objects/Game_Manager_2/Game_Manager_2.yy",},
     {"name":"You_Win_1","order":9,"path":"objects/You_Win_1/You_Win_1.yy",},
     {"name":"Game_area_hard","order":1,"path":"rooms/Game_area_hard/Game_area_hard.yy",},

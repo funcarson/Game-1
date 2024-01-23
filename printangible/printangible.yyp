@@ -99,6 +99,7 @@
     {"id":{"name":"Turret","path":"objects/Turret/Turret.yy",},},
     {"id":{"name":"Title_Button","path":"objects/Title_Button/Title_Button.yy",},},
     {"id":{"name":"Instructions_Screen","path":"rooms/Instructions_Screen/Instructions_Screen.yy",},},
+    {"id":{"name":"spr_printer_idle","path":"sprites/spr_printer_idle/spr_printer_idle.yy",},},
     {"id":{"name":"Game_Manager_2","path":"objects/Game_Manager_2/Game_Manager_2.yy",},},
     {"id":{"name":"You_Win_1","path":"objects/You_Win_1/You_Win_1.yy",},},
     {"id":{"name":"Game_area_hard","path":"rooms/Game_area_hard/Game_area_hard.yy",},},
