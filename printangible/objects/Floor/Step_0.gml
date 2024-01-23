@@ -3,7 +3,7 @@
 
 if (!is_placed && is_held)
 {
-	var nearest_tile = instance_place(player.x, player.y + 8, Floor);
+	var nearest_tile = instance_place(player.x, player.y + player.sprite_height /2 + 8, Floor);
 	if (nearest_tile != noone)
 	{
 		if (!place_meeting(nearest_tile.x + (player.facing * (sprite_width)), nearest_tile.y, Floor))
@@ -22,7 +22,7 @@ if (!is_placed && is_held)
 }
 else if (!is_placed)
 {
-	if (distance_to_object(player) <= sprite_width + half_width)
+	if (distance_to_object(player) <= 2 * sprite_width)
 	{
 		is_held = true;
 	}

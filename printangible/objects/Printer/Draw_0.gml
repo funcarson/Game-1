@@ -50,22 +50,24 @@ if(is_timer_running == false)
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value
 		/// @DnDVersion : 1
 		/// @DnDHash : 3A11EE10
+		/// @DnDDisabled : 1
 		/// @DnDParent : 70E038B8
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y" "-96"
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "caption" ""Print Turret: Press F""
-		draw_text(x + 0, y + -96, string("Print Turret: Press F") + "");
+	
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value
 		/// @DnDVersion : 1
 		/// @DnDHash : 3CD030E9
+		/// @DnDDisabled : 1
 		/// @DnDParent : 70E038B8
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y" "-128"
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "caption" ""Upgrade Player: Press V""
-		draw_text(x + 0, y + -128, string("Upgrade Player: Press V") + "");
+	
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value
 		/// @DnDVersion : 1
