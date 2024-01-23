@@ -50,3 +50,16 @@ if(!(i_time == 0))
 	/// @DnDArgument : "var" "i_time"
 	i_time += -1;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 36F2E5F5
+/// @DnDArgument : "var" "hp"
+if(hp == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 017C09A8
+	/// @DnDParent : 36F2E5F5
+	instance_destroy();
+}
