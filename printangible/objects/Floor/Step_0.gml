@@ -4,7 +4,6 @@
 if (!is_placed && is_held)
 {
 	var nearest_tile = instance_place(player.x, player.y + 8, Floor);
-	show_debug_message(nearest_tile);
 	if (nearest_tile != noone)
 	{
 		if (!place_meeting(nearest_tile.x + (player.facing * (sprite_width)), nearest_tile.y, Floor))
