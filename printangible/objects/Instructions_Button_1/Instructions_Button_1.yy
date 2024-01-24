@@ -27,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "Instructions_Button_Sprite_1",
-    "path": "sprites/Instructions_Button_Sprite_1/Instructions_Button_Sprite_1.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
