@@ -3,7 +3,7 @@
 
 if (tiles_placed >= tiles_to_win)
 {
-	room_goto(Level_2_Win_Screen);
+	room_goto(Win_Screen);
 }
 
 

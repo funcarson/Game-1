@@ -47,16 +47,23 @@ if(is_timer_running == false)
 		/// @DnDArgument : "caption" ""Print Tile: Press R""
 		draw_text(x + 0, y + -64, string("Print Tile: Press R") + "");
 	
-		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 3A11EE10
-		/// @DnDDisabled : 1
+		/// @DnDHash : 5446C9E0
 		/// @DnDParent : 70E038B8
-		/// @DnDArgument : "x_relative" "1"
-		/// @DnDArgument : "y" "-96"
-		/// @DnDArgument : "y_relative" "1"
-		/// @DnDArgument : "caption" ""Print Turret: Press F""
-	
+		/// @DnDArgument : "var" "turret_count"
+		if(turret_count == 0)
+		{
+			/// @DnDAction : YoYo Games.Drawing.Draw_Value
+			/// @DnDVersion : 1
+			/// @DnDHash : 3A11EE10
+			/// @DnDParent : 5446C9E0
+			/// @DnDArgument : "x_relative" "1"
+			/// @DnDArgument : "y" "-96"
+			/// @DnDArgument : "y_relative" "1"
+			/// @DnDArgument : "caption" ""Print Turret: Press F""
+			draw_text(x + 0, y + -96, string("Print Turret: Press F") + "");
+		}
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value
 		/// @DnDVersion : 1

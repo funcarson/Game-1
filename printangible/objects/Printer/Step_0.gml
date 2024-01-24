@@ -18,12 +18,12 @@ if(is_timer_running == true)
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 4EC709D4
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "x" "self.x"
+/// @DnDArgument : "y" "self.y"
 /// @DnDArgument : "object" "player"
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "object" "player"
-var l4EC709D4_0 = instance_place(x + 0, y + 0, [player]);
+var l4EC709D4_0 = instance_place(self.x, self.y, player);
 if (!(l4EC709D4_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
