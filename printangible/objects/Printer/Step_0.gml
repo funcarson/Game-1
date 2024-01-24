@@ -64,14 +64,3 @@ if(hp == 0)
 	/// @DnDParent : 36F2E5F5
 	instance_destroy();
 }
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 62B9A14A
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)$(13_10)if (instance_number(Floor) >= 20)$(13_10){$(13_10)	room_goto(Level_2_Win_Screen)$(13_10)}"
-/// @description Execute Code
-
-if (instance_number(Floor) >= 20)
-{
-	room_goto(Level_2_Win_Screen)
-}

@@ -12,6 +12,7 @@ if (!is_placed && is_held)
 			y = nearest_tile.y;
 			is_placed = true;
 			is_held = false;
+			Game_Manager.tiles_placed ++;
 		}
 	}
 	if (is_held)
