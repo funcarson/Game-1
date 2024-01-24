@@ -63,3 +63,9 @@ if (y + sprite_height / 2 > room_height)
 {
 	room_goto(Game_Over_Screen);
 }
+
+// reduce I frams
+if (i_frames > 0)
+{
+	i_frames --;
+}
