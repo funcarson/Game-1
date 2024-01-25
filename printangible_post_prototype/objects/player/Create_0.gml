@@ -12,6 +12,4 @@ delay = 120;
 facing = -1;
 
 // player upgrade states
-player_basic = true;
-player_upgrade1 = false;
-player_upgrade2 = false;
+player_upgrade_state = 0;
