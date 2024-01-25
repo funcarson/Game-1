@@ -8,7 +8,7 @@ else if (instance_exists(obj_enemy_easy)){
 }
 
 if(instance_exists(target)){
-	var bullet = instance_create_layer(self.x, self.y, "Instances", Bullet);
+	var bullet = instance_create_layer(self.x, self.y, "Instances", Bullet_basic);
 	bullet.direction = point_direction(x, y, target.x, target.y);
 	bullet.speed = 10;
 }

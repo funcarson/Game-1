@@ -70,3 +70,18 @@ if (i_frames > 0)
 {
 	i_frames --;
 }
+
+
+// player upgrade state
+if (player_basic)
+{
+	sprite_index = spr_player_basic;
+}
+if (player_upgrade1)
+{
+	sprite_index = spr_player_upgrade1;
+}
+if (player_upgrade2)
+{
+	sprite_index = spr_player_upgrade2;
+}
