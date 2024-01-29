@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_glove",
+    "path": "sprites/spr_glove/spr_glove.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

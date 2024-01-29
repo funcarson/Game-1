@@ -7,6 +7,7 @@
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Bullets","order":14,"path":"folders/Objects/Bullets.yy",},
     {"name":"Buttons","order":9,"path":"folders/Objects/Buttons.yy",},
+    {"name":"Controllers","order":18,"path":"folders/Objects/Controllers.yy",},
     {"name":"Room_Managers","order":10,"path":"folders/Objects/Room_Managers.yy",},
     {"name":"Screen_Buttons","order":12,"path":"folders/Objects/Screen_Buttons.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
@@ -21,7 +22,6 @@
     {"name":"Player","order":7,"path":"folders/Sprites/Player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Controllers","order":18,"path":"folders/Objects/Controllers.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_bullet_up_1","order":4,"path":"sprites/spr_bullet_up_1/spr_bullet_up_1.yy",},
