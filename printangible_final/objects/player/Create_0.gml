@@ -13,3 +13,4 @@ facing = -1;
 
 // player upgrade states
 player_upgrade_state = 0;
+global.player_upgrade = 0;

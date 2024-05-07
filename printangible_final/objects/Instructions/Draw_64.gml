@@ -9,7 +9,7 @@ draw_text(10  + 15, y + 130, string("A - Go Left "));
 draw_text(10  + 15, y + 170, string("D - Go Right "));
 draw_text(10  + 15, y + 210, string("W - Jump "));
 draw_text(10  + 15, y + 250, string("V - Spawn a upgrade/health Carrot "));
-draw_text(10  + 15, y + 290, string("Space - Attack "));
+draw_text(10  + 15, y + 290, string("Space - Attack (click the secret spoiler for our next game)"));
 
 
 //objective

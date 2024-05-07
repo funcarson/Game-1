@@ -5,6 +5,8 @@ move_right	=  keyboard_check(ord("D"));
 move_left	= -keyboard_check(ord("A"));
 jump_key	=  keyboard_check_pressed(ord("W"));
 
+
+
 //process input
 var move = move_left + move_right;
 
